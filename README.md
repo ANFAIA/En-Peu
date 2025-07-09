@@ -13,7 +13,7 @@ Finalizado el análisis exploratorio y generados histogramas y boxplots de todas
 
 <img src="./histogramas_analisis_exploratorio.png" />
 
-<img src="./boxplots_analisis_exploratorio.png" />
+<img src="./boxplot_analisis_exploratorio.png" />
 
 
 Finalizado el análisis de correlación y generado un heatmap de la correlación entre variables numéricas
