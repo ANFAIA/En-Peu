@@ -18,7 +18,7 @@ Finalizado el análisis exploratorio y generados histogramas y boxplots de todas
 
 Finalizado el análisis de correlación y generado un heatmap de la correlación entre variables numéricas
 
-
+<img src="./heatmap_correlacion.png" />
 
 
 ## Herramientas necesarias
