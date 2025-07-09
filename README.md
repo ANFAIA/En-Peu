@@ -21,6 +21,7 @@ Finalizado el análisis de correlación y generado un heatmap de la correlación
 <img src="./heatmap_correlacion.png" />
 
 
+
 ## Herramientas necesarias
 
 (esto es si se hiciera con R. actualizaré a medida que vaya utilizando más Python)
