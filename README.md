@@ -7,6 +7,20 @@ Este proyecto aplica técnicas de aprendizaje automático para predecir la altur
 
 ---
 
+## Ultimas actualizaciones
+
+Finalizado el análisis exploratorio y generados histogramas y boxplots de todas las variables.
+
+<img src="./histogramas_analisis_exploratorio.png" />
+
+<img src="./boxplots_analisis_exploratorio.png" />
+
+
+Finalizado el análisis de correlación y generado un heatmap de la correlación entre variables numéricas
+
+
+
+
 ## Herramientas necesarias
 
 (esto es si se hiciera con R. actualizaré a medida que vaya utilizando más Python)
