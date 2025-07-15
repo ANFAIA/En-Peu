@@ -15,12 +15,12 @@ Tras observar valores atípicos en los boxplots, se observaron los mapas de las 
 
 Mapa con los datos obtenidos de Altitud del terreno:
 
-<img src="./Altitud_viejo.png" />
+<img src="./datos_viejos/Altitud_viejo.png" />
 
 
 Mapa con los datos obtenidos de Pendiente del terreno:
 
-<img src="./Pendiente_viejo.png" />
+<img src="./datos_viejos/Pendiente_viejo.png" />
 
 
 Estos datos han sido corregidos, y a continuación se muestran los mapas nuevos para estas variables:
@@ -54,14 +54,14 @@ Y el heatmap que muestra la correlación de variables numéricas es el siguiente
 10/07/2025
 Finalizado el análisis exploratorio y generados histogramas y boxplots de todas las variables.
 
-<img src="./histogramas_analisis_exploratorio_viejo.png" />
+<img src="./datos_viejos/histogramas_analisis_exploratorio_viejo.png" />
 
-<img src="./boxplot_analisis_exploratorio_viejo.png" />
+<img src="./datos_viejos/boxplot_analisis_exploratorio_viejo.png" />
 
 
 Finalizado el análisis de correlación y generado un heatmap de la correlación entre variables numéricas
 
-<img src="./heatmap_correlacion_viejo.png" />
+<img src="./datos_viejos/heatmap_correlacion_viejo.png" />
 
 
 Para variables categóricas se hizo el test de Cramer's V, obteniendo una asociación moderada, y para variables categóricas con respecto a variables numéricas se hizo el test de Kruskall Wallis, que indicó que todas las variables tienen una asociación significativa entre ellas.
