@@ -6,19 +6,19 @@
 
 Mapas que muestran los valores de PLA (Profundidad de la Lámina de Agua, es decir, cota de inundación)
 
-<img src="../images/mapa_predicciones_PLA.png" />
+<img src="/images/mapa_predicciones_PLA.png" />
 
 Mapa con los valores de error absoluto para PLA predicho y observado
 
-<img src="../images/mapa_error_absoluto.png" />
+<img src="/images/mapa_error_absoluto.png" />
 
 Resultados de los primeros modelos: Random Forest (hiperparámetros: 'max_features': 10, 'n_estimators': 500, 'random_state': 42) y GBM (hiperparámetros: 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 10, 'n_estimators': 500)
 
-<img src="../images/R2_gbm_rf.png" />
+<img src="/images/R2_gbm_rf.png" />
 
-<img src="../images/RMSE_gbm_rf.png" />
+<img src="/images/RMSE_gbm_rf.png" />
 
-<img src="../images/MAE_gbm_rf.png" />
+<img src="/images/MAE_gbm_rf.png" />
 
 
 
