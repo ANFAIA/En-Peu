@@ -6,6 +6,15 @@ This file will be used to document the updates of the project.
 
 ## Ultimas actualizaciones
 
+**22/07/2025**
+
+Se ha generado un nuevo gráfico de dispersión para visualizar la relación entre los valores de PLA predichos y los observados. Este gráfico ayuda a evaluar la precisión del modelo de Random Forest.
+
+- Gráfico de dispersión de valores predichos vs. observados:
+  <img src="../images/dispersion_observado_predicho.png" />
+
+---
+
 **18/07/2025**
 
 Se han entrenado dos modelos de machine learning, Gradient Boosting (con XGBoost) y Random Forest, para predecir la profundidad de la lámina de agua (PLA). Los modelos fueron evaluados y comparados, y se generaron las siguientes visualizaciones:
@@ -21,7 +30,7 @@ Se han entrenado dos modelos de machine learning, Gradient Boosting (con XGBoost
 - Mapa del error absoluto de las predicciones:
   <img src="../images/mapa_error_absoluto.png" />
 
-El modelo Random Forest mostró un rendimiento superior y fue guardado para futuras predicciones.
+El modelo Random Forest mostró un rendimiento superior y fue guardado para futuras predicciones. Los datos de las predicciones y los valores reales se guardaron en `mapa_PLA_real_predicho.csv`.
 
 ---
 
@@ -30,9 +39,6 @@ El modelo Random Forest mostró un rendimiento superior y fue guardado para futu
 Se transformaron los datos para prepararlos para el modelado. Las variables numéricas fueron escaladas utilizando `MinMaxScaler` de `sklearn` y las variables categóricas (`CUS` y `OC`) fueron codificadas con `OneHotEncoder` de `sklearn` . El conjunto de datos transformado se guardó como `data_fin.csv`.
 
 ---
-
-
-
 
 **14/07/2025**
 
