@@ -4,9 +4,10 @@
 
 ## Resumen de resultados
 
-Mapas que muestran los valores de PLA (Profundidad de la Lámina de Agua, es decir, cota de inundación) predicho y observado
+Mapas que muestran los valores de PLA (Profundidad de la Lámina de Agua, es decir, cota de inundación) predicho y observado, con un gradiente que muestra la altitud a lo largo del cauce del río.
 
-<img src="/images/mapa_predicciones_PLA_PredObs.png" />
+
+<img src="/images/mapa_predicciones_PLA_rio.png" />
 
 Mapa con los valores de error absoluto para PLA predicho y observado
 
