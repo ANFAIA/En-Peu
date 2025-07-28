@@ -14,11 +14,11 @@ Mapa con los valores de error absoluto para PLA predicho y observado
 
 Resultados de los primeros modelos: Random Forest (hiperparámetros: 'max_features': 10, 'n_estimators': 500, 'random_state': 42) y GBM (hiperparámetros: 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 10, 'n_estimators': 500)
 
-<img src="/images/R2_gbm_rf.png" />
+<img src="/images/R2_gbm_rf_svm.png" />
 
-<img src="/images/RMSE_gbm_rf.png" />
+<img src="/images/RMSE_gbm_rf_svm.png" />
 
-<img src="/images/MAE_gbm_rf.png" />
+<img src="/images/MAE_gbm_rf_svm.png" />
 
 
 
