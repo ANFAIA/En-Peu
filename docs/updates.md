@@ -8,6 +8,15 @@ This file will be used to document the updates of the project.
 
 **28/07/2025**
 
+Se ha añadido una nueva visualización al mapa de predicciones que muestra el gradiente de altitud del río. Para ello, se han imputado los valores de altitud faltantes en los puntos del río utilizando un algoritmo KDTree y se ha representado el río con un gradiente de color.
+
+- Mapa de predicciones con gradiente de altitud del río:
+  <img src="../images/mapa_predicciones_PLA_rio.png" />
+
+---
+
+**24/07/2025**
+
 Se ha entrenado un nuevo modelo de Support Vector Machine (SVM) para predecir la PLA. Se han comparado los resultados de los tres modelos (Random Forest, GBM y SVM) y se han generado nuevos gráficos de comparación de métricas.
 
 - Comparación de métricas R2, RMSE y MAE entre los tres modelos:
