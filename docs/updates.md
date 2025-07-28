@@ -6,14 +6,34 @@ This file will be used to document the updates of the project.
 
 ## Ultimas actualizaciones
 
+**28/07/2025**
+
+Se ha entrenado un nuevo modelo de Support Vector Machine (SVM) para predecir la PLA. Se han comparado los resultados de los tres modelos (Random Forest, GBM y SVM) y se han generado nuevos gráficos de comparación de métricas.
+
+- Comparación de métricas R2, RMSE y MAE entre los tres modelos:
+  <img src="../images/R2_gbm_rf_svm.png" />
+  <img src="../images/RMSE_gbm_rf_svm.png" />
+  <img src="../images/MAE_gbm_rf_svm.png" />
+
+Además, se han generado Partial Dependence Plots (PDPs) para analizar la influencia de las variables más importantes en las predicciones del modelo Random Forest.
+
+- Partial Dependence Plots:
+  <img src="../images/PDPs.png" />
+
+---
+
+**22/07/2025**
+
+Se ha generado un nuevo gráfico de dispersión para visualizar la relación entre los valores de PLA predichos y los observados. Este gráfico ayuda a evaluar la precisión del modelo de Random Forest.
+
+- Gráfico de dispersión de valores predichos vs. observados:
+  <img src="../images/dispersion_observado_predicho.png" />
+
+---
+
 **18/07/2025**
 
 Se han entrenado dos modelos de machine learning, Gradient Boosting (con XGBoost) y Random Forest, para predecir la profundidad de la lámina de agua (PLA). Los modelos fueron evaluados y comparados, y se generaron las siguientes visualizaciones:
-
-- Comparación de métricas R2, RMSE y MAE entre los modelos:
-  <img src="../images/R2_gbm_rf.png" />
-  <img src="../images/RMSE_gbm_rf.png" />
-  <img src="../images/MAE_gbm_rf.png" />
 
 - Mapa de las predicciones del modelo Random Forest en comparación con los valores reales:
   <img src="../images/mapa_predicciones_PLA.png" />
@@ -21,7 +41,7 @@ Se han entrenado dos modelos de machine learning, Gradient Boosting (con XGBoost
 - Mapa del error absoluto de las predicciones:
   <img src="../images/mapa_error_absoluto.png" />
 
-El modelo Random Forest mostró un rendimiento superior y fue guardado para futuras predicciones.
+El modelo Random Forest mostró un rendimiento superior y fue guardado para futuras predicciones. Los datos de las predicciones y los valores reales se guardaron en `mapa_PLA_real_predicho.csv`.
 
 ---
 
@@ -30,9 +50,6 @@ El modelo Random Forest mostró un rendimiento superior y fue guardado para futu
 Se transformaron los datos para prepararlos para el modelado. Las variables numéricas fueron escaladas utilizando `MinMaxScaler` de `sklearn` y las variables categóricas (`CUS` y `OC`) fueron codificadas con `OneHotEncoder` de `sklearn` . El conjunto de datos transformado se guardó como `data_fin.csv`.
 
 ---
-
-
-
 
 **14/07/2025**
 
