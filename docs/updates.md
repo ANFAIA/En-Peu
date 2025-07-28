@@ -43,6 +43,12 @@ Se han entrenado dos modelos de machine learning, Gradient Boosting (con XGBoost
 
 El modelo Random Forest mostró un rendimiento superior y fue guardado para futuras predicciones. Los datos de las predicciones y los valores reales se guardaron en `mapa_PLA_real_predicho.csv`.
 
+- Comparación de métricas R2, RMSE y MAE entre los dos modelos:
+  <img src="../images/R2_gbm_rf.png" />
+  <img src="../images/RMSE_gbm_rf.png" />
+  <img src="../images/MAE_gbm_rf.png" />
+
+
 ---
 
 **17/07/2025**
