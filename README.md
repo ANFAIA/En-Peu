@@ -4,22 +4,20 @@
 
 ## Resumen de resultados
 
-Mapas que muestran los valores de PLA (Profundidad de la Lámina de Agua, es decir, cota de inundación) predicho y observado
+Mapas que muestran los valores de PLA (Profundidad de la Lámina de Agua, es decir, cota de inundación) predicho y observado, con un gradiente que muestra la altitud a lo largo del cauce del río.
 
-<img src="/images/mapa_predicciones_PLA_PredObs.png" />
+
+<img src="/images/mapa_predicciones_PLA_rio.png" />
 
 Mapa con los valores de error absoluto para PLA predicho y observado
 
 <img src="/images/mapa_error_absoluto.png" />
 
-Resultados de los primeros modelos: Random Forest (hiperparámetros: 'max_features': 10, 'n_estimators': 500, 'random_state': 42) y GBM (hiperparámetros: 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 10, 'n_estimators': 500)
+Resultados de los primeros modelos: Random Forest (hiperparámetros: 'max_features': 10, 'n_estimators': 500, 'random_state': 42), GBM (hiperparámetros: 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 10, 'n_estimators': 500) y SVR ('C': 10, 'epsilon': 0.01, 'gamma': 'scale', 'kernel': 'rbf')
 
-<img src="/images/R2_gbm_rf.png" />
-
-<img src="/images/RMSE_gbm_rf.png" />
-
-<img src="/images/MAE_gbm_rf.png" />
-
+  <img src="/images/R2_gbm_rf_svm.png" />
+  <img src="/images/RMSE_gbm_rf_svm.png" />
+  <img src="/images/MAE_gbm_rf_svm.png" />
 
 
 ## Descripción breve
