@@ -6,6 +6,41 @@ This file will be used to document the updates of the project.
 
 ## Ultimas actualizaciones
 
+
+
+**28/08/2025**
+
+Se ha creado una aplicación web interactiva utilizando Gradio para facilitar la predicción de inundaciones. La aplicación, disponible en la carpeta `en-peu-gradio-geo`, permite a los usuarios subir un archivo CSV con datos geoespaciales y obtener predicciones de nivel de inundación en tiempo real.
+
+La aplicación utiliza un modelo de machine learning entrenado previamente, que se descarga automáticamente desde Hugging Face Hub. Además de generar un archivo CSV con las predicciones, la aplicación crea un mapa interactivo que visualiza los resultados, facilitando la interpretación de las zonas con mayor riesgo de inundación.
+
+---
+
+**21/08/2025**
+
+Se ha desarrollado un nuevo modelo de predicción de inundaciones basado en una arquitectura de Red Neuronal de Razonamiento Jerárquico (HRM). Este modelo, implementado en el notebook `notebooks/modelo_HRM`, utiliza una estructura de dos niveles para procesar datos geoespaciales y embeddings de imágenes satelitales, logrando una alta precisión en las predicciones.
+
+El modelo HRM extrae características complejas de los datos y las utiliza para entrenar un modelo final de Random Forest, mejorando significativamente los resultados obtenidos con los modelos anteriores.
+
+---
+
+
+**14/08/2025**
+
+Se han integrado embeddings de imágenes satelitales de Google Earth Engine (AlphaEarth 2024) para enriquecer el conjunto de datos y mejorar la capacidad predictiva de los modelos. Estos embeddings capturan características geoespaciales complejas que no estaban presentes en las variables originales.
+
+El nuevo conjunto de datos, que incluye tanto las variables originales como los embeddings, se ha guardado como `data_con_embeddings.csv`.
+
+- **Análisis de los embeddings**:
+  - Boxplot de la distribución de los embeddings:
+    <img src="../images/boxplot_embeddings.png" />
+  - Heatmap de correlación entre las variables originales y los embeddings:
+    <img src="../images/corr_embeddings.png" />
+
+Se entrenaron y evaluaron nuevos modelos de Gradient Boosting y Random Forest utilizando este conjunto de datos mejorado. Los resultados mostraron una mejora en el rendimiento predictivo, especialmente en el modelo Random Forest, que ahora combina tanto las variables geoespaciales originales como los embeddings. El modelo Random Forest entrenado solo con embeddings se ha guardado como `modelo_rf_SOLOembed.pkl`.
+
+---
+
 **28/07/2025**
 
 Se ha añadido una nueva visualización al mapa de predicciones que muestra el gradiente de altitud del río. Para ello, se han imputado los valores de altitud faltantes en los puntos del río utilizando un algoritmo KDTree y se ha representado el río con un gradiente de color.
