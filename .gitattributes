@@ -1,2 +1,4 @@
 models/modelo_rf.pkl filter=lfs diff=lfs merge=lfs -text
 models/modelo_rf.pkl !text !filter !merge !diff
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
