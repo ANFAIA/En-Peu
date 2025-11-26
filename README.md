@@ -2,6 +2,8 @@
 
 ---
 
+* Para ver el documento con las últimas actualizaciones, vaya al archivo `docs/updates.md` en la carpeta docs.* 
+
 ## Resumen de resultados
 
 Mapas que muestran los valores de PLA (Profundidad de la Lámina de Agua, es decir, cota de inundación) predicho y observado, con un gradiente que muestra la altitud a lo largo del cauce del río.
