@@ -2,7 +2,17 @@
 
 ---
 
-* Para ver el documento con las últimas actualizaciones, vaya al archivo `docs/updates.md` en la carpeta docs.* 
+* Para ver el documento con las últimas actualizaciones, vaya al archivo `docs/updates.md` en la carpeta docs.
+
+Este repositorio contiene todo el código, datos y notebooks del proyecto.
+
+Para ver la aplicación desplegada en HuggingFace Spaces:
+
+https://huggingface.co/spaces/hugosuarezglez/en-peu-gradio-geo
+
+Código del Space:
+
+https://github.com/hugosuarezglez/en-peu-gradio-geo
 
 ## Resumen de resultados
 
